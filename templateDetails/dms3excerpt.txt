@@ -1,0 +1,8 @@
+                                <fields name="dms3excerpt" type="chain" label="Personalitzar excerpt" description="Configura el text que apareix al final de l'excerpt">
+					<field name="enabled" type="toggle" default="1" label="ENABLED" enabler="true" />
+					<field name="text" type="text" default="[...]" class="text" label="Text a utilitzar al final de l'excerpt" />
+                                        <field name="linkable" type="toggle" default="0" label="Amb enllaç" />
+                                        <field name="length-control" type="toggle" default="0" label="Control de longitud" enabler="true" />
+                                        <field name="length" type="text" default="50" class="text" label="longitud de l'excerpt" />
+					<field name="priority" type="hidden" default="2"/>
+				</fields>
