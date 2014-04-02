@@ -1,0 +1,4 @@
+                                <fields name="dms3ScrollToMenu" type="chain" label="Scroll al menú responsiu" description="Activa el desplaçament cap al menú si el disseny responsiu està actiu i es consulta des d'un dispositiu mòbil">
+					<field name="enabled" type="toggle" default="0" label="ENABLED" enabler="true" />
+					<field name="priority" type="hidden" default="2"/>
+				</fields>
