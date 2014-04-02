@@ -22,5 +22,5 @@ dms3ScrollToMenu: allows to scroll to menu in responsive mode.
 
 Change log
 ----------
-2014-04-02 dms3ScrollToMenu gizmo added
-2013-08-14 dms3excerpt gizmo added
+2014-04-02 v.1.1 dms3ScrollToMenu gizmo added
+2013-08-14 v.1.0 dms3excerpt gizmo added
