@@ -17,7 +17,7 @@ Folder templateDetails contains part of the code that must be inserted into the 
 
 Gizmos inventory
 ----------------
-* dms3excerpt: allows the customization of excerpt considering lenght, link to post and final code.
+* **dms3excerpt**: allows the customization of excerpt considering lenght, link to post and final code.
 * dms3ScrollToMenu: allows to scroll to menu in responsive mode.
 * dms3analytics: allows to use google analytics with display features and google demographic information.
 
