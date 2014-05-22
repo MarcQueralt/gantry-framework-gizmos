@@ -19,8 +19,10 @@ Gizmos inventory
 ----------------
 dms3excerpt: allows the customization of excerpt considering lenght, link to post and final code.
 dms3ScrollToMenu: allows to scroll to menu in responsive mode.
+dms3analytics: allows to use google analytics with display features and google demographic information.
 
 Change log
 ----------
+2014-05-21 v.1.2 dms3analytics
 2014-04-02 v.1.1 dms3ScrollToMenu gizmo added
 2013-08-14 v.1.0 dms3excerpt gizmo added

@@ -1,0 +1,6 @@
+                <fields name="dms3analytics" type="chain" label="Analytics - Demographic Information" description="Add Analytics Demographic and Display features">
+                    <field name="enabled" type="toggle" default="0" label="Enable" />
+                    <field name="code" type="text" default="" label="ANALYTICS_CODE" class="text-long" />
+                    <field name="priority" type="hidden" default="4"/>
+                </fields>
+                
