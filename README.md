@@ -23,6 +23,7 @@ Gizmos inventory
 
 Change log
 ----------
+* 2014-07-01 v.1.4 dms3analytics updated to include a custom variable to record IP Adresses and also Demographic information activation
 * 2014-05-21 v.1.2 dms3analytics
 * 2014-04-02 v.1.1 dms3ScrollToMenu gizmo added
 * 2013-08-14 v.1.0 dms3excerpt gizmo added
