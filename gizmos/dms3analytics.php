@@ -1,4 +1,5 @@
 <?php
+/* Version 1.4.1 */
 defined('GANTRY_VERSION') or die();
 
 gantry_import('core.gantrygizmo');
@@ -14,6 +15,7 @@ class GantryGizmoDMS3Analytics extends GantryGizmo {
     function init() {
         /** @global $gantry Gantry */
         global $gantry;
+        $ip = $_SERVER['REMOTE_ADDR'];
         ob_start();
         // start of Google Analytics javascript
         ?>
@@ -24,7 +26,7 @@ class GantryGizmoDMS3Analytics extends GantryGizmo {
 
         ga('create', '<?php echo $this->get('code'); ?>', 'auto');
         <?php if ($this->get('varIPenabled')): ?>
-            ga('set','dimension<?php echo $this->get('varIPid'); ?>','<?php echo $_SERVER['REMOTE_ADDR']; ?>');
+            ga('set','dimension<?php echo $this->get('varIPid'); ?>','<?php echo $ip; ?>');
         <?php endif; ?>
         <?php if ($this->get('demographicsEnabled')): ?>
             ga('require', 'displayfeatures');
